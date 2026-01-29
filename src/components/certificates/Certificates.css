@@ -1,0 +1,83 @@
+.certificates__container {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.certificate__card {
+  background-color: var(--container-color);
+  padding: 1.25rem;
+  border-radius: 1rem;
+  text-align: center;
+  transition: .3s;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.certificate__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.certificate__img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  height: 200px;
+  object-fit: cover;
+}
+
+.certificate__icon-wrapper {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--body-color);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.certificate__icon {
+  font-size: 4rem;
+  color: var(--first-color);
+}
+
+.certificate__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.5rem;
+  color: var(--title-color);
+}
+
+.certificate__button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  font-size: var(--small-font-size);
+  color: var(--first-color);
+  justify-content: center;
+  cursor: pointer;
+}
+
+.certificate__button-icon {
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.certificate__button:hover .certificate__button-icon {
+  transform: translateX(0.25rem);
+}
+
+/* Breakpoints */
+@media screen and (max-width: 1024px) {
+  .certificates__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .certificates__container {
+    grid-template-columns: 1fr;
+  }
+}
