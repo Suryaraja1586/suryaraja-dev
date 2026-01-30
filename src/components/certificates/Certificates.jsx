@@ -1,6 +1,5 @@
-import React from 'react';
 import './Certificates.css';
-import { RiFilePaper2Line, RiArrowRightLine } from 'react-icons/ri';
+import { RiFilePaper2Line } from 'react-icons/ri';
 
 // Import certificate files
 import Cert1 from '../../certificates/Data Structures and Algorithms Design_page-0001.jpg.jpg';
