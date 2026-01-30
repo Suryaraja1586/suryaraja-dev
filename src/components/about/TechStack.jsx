@@ -1,7 +1,7 @@
 import React from 'react';
 import './TechStack.css';
-import { FaPython, FaJava, FaReact, FaNodeJs, FaGit } from 'react-icons/fa';
-import { SiMysql, SiMongodb, SiAppwrite, SiNextdotjs, SiPowerbi, SiFirebase } from 'react-icons/si';
+import { FaPython, FaJava, FaReact, FaNodeJs, FaGit, FaChartBar } from 'react-icons/fa';
+import { SiMysql, SiMongodb, SiAppwrite, SiNextdotjs, SiFirebase } from 'react-icons/si';
 import { TbApi, TbBrandReactNative } from 'react-icons/tb';
 
 const TechStack = () => {
@@ -16,7 +16,7 @@ const TechStack = () => {
         { name: 'Node.js', icon: <FaNodeJs /> },
         { name: 'REST API', icon: <TbApi /> },
         { name: 'Appwrite', icon: <SiAppwrite /> },
-        { name: 'PowerBI', icon: <SiPowerbi /> },
+        { name: 'PowerBI', icon: <FaChartBar /> },
         { name: 'React Native', icon: <TbBrandReactNative /> },
         { name: 'Git', icon: <FaGit /> }
 
