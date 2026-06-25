@@ -1,23 +1,22 @@
 import React from 'react';
 import './TechStack.css';
 import { FaPython, FaJava, FaReact, FaNodeJs, FaGit, FaChartBar } from 'react-icons/fa';
-import { SiMysql, SiMongodb, SiAppwrite, SiNextdotjs, SiFirebase } from 'react-icons/si';
+import { SiMysql, SiMongodb, SiAppwrite, SiNextdotjs, SiFirebase , SiSupabase} from 'react-icons/si';
 import { TbApi, TbBrandReactNative } from 'react-icons/tb';
 
 const TechStack = () => {
     const techStack = [
         { name: 'Python', icon: <FaPython /> },
         { name: 'Java', icon: <FaJava /> },
-        { name: 'MySQL', icon: <SiMysql /> },
-        { name: 'MongoDB', icon: <SiMongodb /> },
-        { name: 'Firebase', icon: <SiFirebase /> },
         { name: 'React.js', icon: <FaReact /> },
         { name: 'Next.js', icon: <SiNextdotjs /> },
         { name: 'Node.js', icon: <FaNodeJs /> },
-        { name: 'REST API', icon: <TbApi /> },
+        { name: 'MySQL', icon: <SiMysql /> },
+        { name: 'MongoDB', icon: <SiMongodb /> },
+        { name: 'Firebase', icon: <SiFirebase /> },
         { name: 'Appwrite', icon: <SiAppwrite /> },
+        { name: "Supabase", icon: <SiSupabase /> },
         { name: 'PowerBI', icon: <FaChartBar /> },
-        { name: 'React Native', icon: <TbBrandReactNative /> },
         { name: 'Git', icon: <FaGit /> }
 
     ];

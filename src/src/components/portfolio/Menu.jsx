@@ -1,6 +1,3 @@
-import Work1 from "../../assets/native-jobs.png";
-import Work2 from "../../assets/cryptoverse.png";
-import Work10 from "../../assets/Sentry-image.png";
 import Work3 from "../../assets/img1.jpg";
 import Work4 from "../../assets/blog-1.svg";
 import Work5 from "../../assets/blog-2.svg";
